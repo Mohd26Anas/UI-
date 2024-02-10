@@ -33,8 +33,8 @@ const Calculator = () => {
 	};
 
     const handlePeopleChange = (e) => {
-        const isValidInput = /^[1-9]\d*$/.test(inputValue);
         const inputValue = parseFloat(e.target.value);
+        const isValidInput = /^[1-9]\d*$/.test(inputValue);
         
         setState((prev) => ({ ...prev, people: isNaN(inputValue) ? 0 : inputValue, }));
         if (!isValidInput) {
