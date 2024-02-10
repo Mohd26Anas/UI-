@@ -1,0 +1,29 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none; 
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
