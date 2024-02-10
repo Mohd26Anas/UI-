@@ -37,8 +37,8 @@ function App() {
   return (
  
 
-    <div className="flex flex-col justify-center items-center w-full h-full overflow-y-auto bg-blue-100 p-10 ">
-        <div className='w-4/5 flex flex-col gap-21.25'>
+    <div className="flex flex-col justify-center items-center w-full h-full  bg-blue-100">
+        <div className=' flex h-auto flex-col overflow-y-auto gap-21.25  p-10 '>
 
 			<div className="flex w-full h-25  justify-center items-center">
 				<span className="flex font-IBMPlexMonoRegular font-semibold text-green-50 text-ft3">
